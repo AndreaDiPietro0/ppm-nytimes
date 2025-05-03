@@ -15,6 +15,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -26,18 +28,33 @@
     <div class="row">
         <nav class="navbar bg-body-tertiary">
             <div class="container-fluid">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btgo btn-outline-success" type="submit">GO</button>
-                </form>
 
-                <div class="bg-info clearfix">
-                    <button class="bus " type="submit">U.S.</button>
-                    <button class="bus btn-outline-success" type="submit">INTERNATIONAL</button>
-                    <button class="bus btn-outline-success" type="submit">CANADA</button>
-                    <button class="bus btn-outline-success" type="submit">ESPANOL</button>
-                    <button class="bus btn-outline-success" type="submit">CINESE</button>
-                </div>
+                <i class="bi-search"></i>
+
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">U.S</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">INTERNATIONAL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CANADA</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">ESPANOL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">CIN</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
 
                 <div class="bg-info clearfix">
 
@@ -50,8 +67,8 @@
     </div>
 
     <div class=" container fluid my-1">
-        <div class="row">
-            <div class="col ">
+        <div class="row text-start">
+            <div class="col">
                 <div class="row">
                     Saturday, April 26, 2025
                 </div>
@@ -59,10 +76,10 @@
                     Today's Paper
                 </div>
             </div>
-            <div class="col nav item ">
-                <a class="nav-link " href="#"><p>THE NEW YORK TIMES</p></a>
+            <div class="col text-center ">
+                <img src="https://placehold.co/600x100/000000/FFF" class="img-fluid" alt="logo nyt">
             </div>
-            <div class="col nav item ">Nasdaq +0.5% </div>
+            <div class="col text-end">Nasdaq +0.5% </div>
         </div>
 
     </div>
@@ -163,24 +180,35 @@
         </div>
     </nav>
     <hr/>
+    <hr/>
+
+    <div class="container">
+        <div class="row"><a class="text-center"> live</a></div>
+    </div>
+    <hr/>
 
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="col">
-                    <div class="row my-3">
-                        <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h4>
-                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="row my-3">
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                <h6>5 min read</h6>
+                            </div>
+                            <div class="row my-3">
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                <h6>5 min read</h6>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <img src="https://placehold.co/500x400/000000/FFF" class="img-fluid" alt="text">
+
+                        </div>
                     </div>
-                    <div class="row my-3">
-                        <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h4>
-                        2 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    </div>
-                    <div class="row my-3">
-                        <h4>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</h4>
-                        3 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    </div>
-                    <img src="https://placehold.co/523x348/000000/FFF" class="img-fluid" alt="text">
 
                     <hr/>
                     <div class="row">
@@ -190,25 +218,24 @@
                         <div class="col">
                             The Headlines
                             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-
                         </div>
                         <hr/>
                     </div>
                     <div class="row">
-                        <div class="col">
+                        <div class="col-4">
                             <div class="row">
-                                <h4>4 developing ecc</h4>
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                <h6>5 min read</h6>
                             </div>
                             <div class="row">
-                                <h4>5 blackout forces</h4>
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                <h6>5 min read</h6>
                             </div>
                         </div>
                         <div class="col">
-                            <img src="https://placehold.co/400x400/000000/FFF" class="img-fluid" alt="text">
+                            <img src="https://placehold.co/500x400/000000/FFF" class="img-fluid" alt="text">
                         </div>
                     </div>
                     <hr/>
@@ -218,38 +245,39 @@
                             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                                 <div class="container-fluid">
                                     <a class="nav-item">
-                                        <a class="nav-link" href="#"> The Campus Crackdown</a>
+                                        <a class="nav-link" href="#"> first title</a>
                                     </a>
                                     <a class="nav-item">
-                                        <a class="nav-link" href="#">Harvard Administration</a>
+                                        <a class="nav-link" href="#">second title</a>
                                     </a>
                                     <a class="nav-item">
-                                        <a class="nav-link" href="#">University target</a>
+                                        <a class="nav-link" href="#">third</a>
                                     </a>
                                     <a class="nav-item">
-                                        <a class="nav-link" href="#">Federal fund freeze</a>
+                                        <a class="nav-link" href="#">fourth title</a>
                                     </a>
                                     <a class="nav-item">
-                                        <a class="nav-link" href="#">Revoked visas</a>
+                                        <a class="nav-link" href="#">fifth title</a>
                                     </a>
 
                                 </div>
                             </nav>
 
                         </div>
-                        <div class="col">
+                        <div class="col-4">
                             <div class="row">
-                                <h4>6 developing ecc</h4>
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                <h6>5 min read</h6>
                             </div>
                             <div class="row">
-                                <h4>7 developing ecc</h4>
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-
+                                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                <h6>5 min read</h6>
                             </div>
                         </div>
                         <div class="col">
-                            <img src="https://placehold.co/400x400/000000/FFF" class="img-fluid" alt="text">
+                            <img src="https://placehold.co/500x400/000000/FFF" class="img-fluid" alt="text">
                         </div>
                     </div>
                     <hr/>
@@ -359,17 +387,144 @@
                             </div>
                             <hr/>
 
+                            <div class="row">
+                                <div class="row">
+                                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                                        <div class="container-fluid">
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#"> first title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">second title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">third title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">fourth title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">fifth title</a>
+                                            </a>
+
+                                        </div>
+                                    </nav>
+
+                                </div>
+                                <div class="col-4">
+                                    <div class="row">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <h6>5 min read</h6>
+                                    </div>
+                                    <div class="row">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <h6>5 min read</h6>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img src="https://placehold.co/500x400/000000/FFF" class="img-fluid" alt="text">
+                                </div>
+                            </div>
+                            <hr/>
+
+                            <div class="row">
+                                <div class="row">
+                                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                                        <div class="container-fluid">
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#"> first title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">second title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">third title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">fourth title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">fifth title</a>
+                                            </a>
+
+                                        </div>
+                                    </nav>
+
+                                </div>
+                                <div class="col-4">
+                                    <div class="row">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <h6>5 min read</h6>
+                                    </div>
+                                    <div class="row">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <h6>5 min read</h6>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img src="https://placehold.co/500x400/000000/FFF" class="img-fluid" alt="text">
+                                </div>
+                            </div>
+                            <hr/>
+
+                            <div class="row">
+                                <div class="row">
+                                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                                        <div class="container-fluid">
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">first title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">second title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">third title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">fourth title</a>
+                                            </a>
+                                            <a class="nav-item">
+                                                <a class="nav-link" href="#">fifth title</a>
+                                            </a>
+
+                                        </div>
+                                    </nav>
+
+                                </div>
+                                <div class="col-4">
+                                    <div class="row">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <h6>5 min read</h6>
+                                    </div>
+                                    <div class="row">
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                                        <h6>5 min read</h6>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <img src="https://placehold.co/500x400/000000/FFF" class="img-fluid" alt="text">
+                                </div>
+                            </div>
+                            <hr/>
+
+
+
+
                         </div>
-
                     </div>
-
                 </div>
                 <hr/>
 
             </div>
 
             <!-- seconda riga-->
-            <div class="col">
+            <div class="col-4">
                 seconda col
                 <div class="row">
                     <img src="https://placehold.co/350x220/000000/FFF" class="img-fluid" alt="...">
@@ -485,6 +640,274 @@
                     <hr/>
                 </div>
             </div>
+
+            <!-- colonna unica finale  -->
+            <div class="row"> More News </div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                        <h6>5 min read</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                        <h6>5 min read</h6>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <img src="https://placehold.co/250x400/000000/FFF" class="img-fluid" alt="...">
+
+                </div>
+                <div class="col">
+
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                        <h6>5 min read</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                        <h5 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h5>
+                        <h6>5 min read</h6>
+                    </div>
+                </div>
+                <div class="col">
+
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                        <h6>5 min read</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                        <h6>5 min read</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                        <h6>5 min read</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                        <h6>5 min read</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                        <h6>5 min read</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur</h4>
+                        <h6>5 min read</h6>
+                    </div>
+                </div>
+            </div>
+            <hr/>
+            <div class="row"> The Athletic Sports coverage </div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                        <h6 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                        <h6 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+                    </div>
+                    <div class="row">
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
+                        <h6 class="fw-lighter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="https://placehold.co/400x200/000000/FFF" class="img-fluid" alt="...">
+
+                </div>
+                <div class="col">
+
+                    <div class="row-5">
+                        first article
+                    </div>
+                    <div class="row-5">
+                        second article
+                    </div>
+                    <div class="row-5">
+                        third article
+                    </div>
+                    <div class="row-5">
+                        other coverage
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            serie1
+                            serie2
+                            serie 3
+                        </div>
+                        <div class="col">
+                            sport1    sport2    sport3
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <hr/>
+
+            <div class="row">Well</div>
+            <div class="row">
+                <div class="col">
+                    <img src="https://placehold.co/200x200/000000/FFF" class="img-fluid" alt="...">
+                </div>
+                <div class="col">
+                    <img src="https://placehold.co/200x200/000000/FFF" class="img-fluid" alt="...">
+                </div>
+                <div class="col">
+                    <img src="https://placehold.co/200x200/000000/FFF" class="img-fluid" alt="...">
+                </div>
+                <div class="col">
+                    <img src="https://placehold.co/200x200/000000/FFF" class="img-fluid" alt="...">
+                </div>
+                <div class="col">
+                    <img src="https://placehold.co/200x200/000000/FFF" class="img-fluid" alt="...">
+                </div>
+            </div>
+            <hr/>
+
+            <div class="row"> NEWS</div>
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <img src="https://placehold.co/150x100/000000/FFF" class="img-fluid" alt="...">
+
+                    </div>
+                    <div class="row">
+                        <h6 class="fw-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h6>
+
+                    </div>
+                </div>
+            </div>
+            <hr/>
+
+
+
+            <!-- ultima parte contatti  -->
+            <div class="row"> THE NEW YORK TIMES</div>
+            <div class="row">
+                <div class="col">
+                    NEWS
+                </div>
+                <div class="col">
+                    Arts
+                </div>
+                <div class="col">
+                    Lifestyle
+                </div>
+                <div class="col">
+                    Opinion
+                </div>
+                <div class="col">
+                    More
+                </div>
+                <div class="col">
+                    Account
+                </div>
+            </div>
+            <div class="row"> copyright    contact    accessibility    work with us</div>
+
+
+            <hr/>
         </div>
     </div>
 </div>
